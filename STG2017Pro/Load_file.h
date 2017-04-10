@@ -5,12 +5,14 @@ class Load_file
 {
 private:
 	int Start_disp;
+	int load_graph;
 
 	void loadStartmenue();
 	void loadGraph();
-	void dispLoad();
+	
 
 public:
-	int load_graph;
+	int getLoadgraph();
+	void dispLoad();
 	void Run();
 };

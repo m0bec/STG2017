@@ -27,7 +27,12 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 		ClearDrawScreen();
 
 		
+		if (GetASyncLoadNum() != 0) {
+			load_file.dispLoad();
+		}
+		else {
 
+		}
 		
 
 		// 裏画面の内容を表画面にコピーする
