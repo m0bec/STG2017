@@ -4,7 +4,6 @@
 class Start_menue
 {
 private:
-	
 	void dispStart();
 
 	int *start_graph;

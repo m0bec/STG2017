@@ -4,7 +4,6 @@
 class Load_file 
 {
 private:
-
 	int load_graph;
 
 	void loadStartmenue();
