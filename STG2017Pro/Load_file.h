@@ -4,13 +4,13 @@
 class Load_file 
 {
 private:
-	int load_disp;
 	int Start_disp;
 
 	void loadStartmenue();
-	void loadDisp();
+	void loadGraph();
 	void dispLoad();
 
 public:
+	int load_graph;
 	void Run();
 };

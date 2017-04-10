@@ -1,8 +1,8 @@
 #include "Load_file.h"
 
-void Load_file::loadDisp()
+void Load_file::loadGraph()
 {
-	LoadGraph("Graph/load.png");
+	load_graph = LoadGraph("Graph/load.png");
 }
 
 void Load_file::loadStartmenue()
@@ -17,7 +17,7 @@ void Load_file::dispLoad()
 
 void Load_file::Run()
 {
-	loadDisp();
+	loadGraph();
 
 	SetUseASyncLoadFlag(true);
 	loadStartmenue();
