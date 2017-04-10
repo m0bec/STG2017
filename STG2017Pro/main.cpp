@@ -1,5 +1,6 @@
 #include "DxLib.h"
 #include <math.h>
+#include "main.h"
 
 // WinMain関数
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
@@ -12,8 +13,11 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	// ＤＸライブラリ初期化処理
 	if (DxLib_Init() == -1) return -1;
 
+	load_file.Run();
+
 	// グラフィックの描画先を裏画面にセット
 	SetDrawScreen(DX_SCREEN_BACK);
+
 
 
 	// 移動ルーチン

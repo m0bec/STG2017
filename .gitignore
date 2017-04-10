@@ -37,3 +37,4 @@
 */Debug
 *.txt
 */.vs
+*/Graph
