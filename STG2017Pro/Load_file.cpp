@@ -2,12 +2,12 @@
 
 void Load_file::loadGraph()
 {
-	Load_file::load_graph = LoadGraph("Graph/load.png");
+	load_graph = LoadGraph("Graph/load.png");
 }
 
 void Load_file::loadStartmenue()
 {
-	LoadGraph("Graph/title.png");
+	start_graph = LoadGraph("Graph/title.png");
 }
 
 void Load_file::dispLoad()
