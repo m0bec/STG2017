@@ -4,7 +4,7 @@
 class Load_file 
 {
 private:
-	int Start_disp;
+
 	int load_graph;
 
 	void loadStartmenue();
@@ -15,4 +15,6 @@ public:
 	int getLoadgraph();
 	void dispLoad();
 	void Run();
+
+	int start_graph;
 };

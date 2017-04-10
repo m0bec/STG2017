@@ -31,7 +31,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 			load_file.dispLoad();
 		}
 		else {
-
+			start_menue.Run();
 		}
 		
 
