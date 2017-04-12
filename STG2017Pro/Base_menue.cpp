@@ -1,10 +1,10 @@
 #include "Base_menue.h"
 
-Base_menue::Base_menue(int menue_number_, int &select_number_, int &this_graph_, int x_, int y_)
+Base_menue::Base_menue(int menue_number_, int *select_number_, int *this_graph_, int x_, int y_)
 {
 	menue_number = menue_number_;
-	pselect_number = &select_number_;
-	this_graph = &this_graph_;
+	pselect_number = select_number_;
+	this_graph = this_graph_;
 	x = x_;
 	y = y_;
 	exit_flag = false;

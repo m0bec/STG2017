@@ -15,7 +15,7 @@ private:
 	bool exit_flag;
 
 public:
-	Base_menue(int menue_number_, int &select_number_, int &this_graph_, int x_, int y_);
+	Base_menue(int menue_number_, int *select_number_, int *this_graph_, int x_, int y_);
 	void setExitflag();
 	void Run();
 };
