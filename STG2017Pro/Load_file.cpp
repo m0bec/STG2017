@@ -8,6 +8,7 @@ void Load_file::loadGraph()
 void Load_file::loadStartmenue()
 {
 	start_graph = LoadGraph("Graph/title.png");
+	game_select_graph = LoadGraph("Graph/Start.png");
 }
 
 void Load_file::dispLoad()

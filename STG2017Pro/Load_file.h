@@ -16,4 +16,5 @@ public:
 	void Run();
 
 	int start_graph;
+	int game_select_graph;
 };
