@@ -1,14 +1,9 @@
 #pragma once
+#include "Must.h"
 #include "Load_file.h"
 #include "Start_menue.h"
 #include "Game_select.h"
 #include "Menue_system.h"
-
-enum GAME_MODE_NUM : int
-{
-	MAIN,
-	START,
-};
 
 Load_file load_file;
 Menue_system menue_system(GAME_MODE_NUM::MAIN);
